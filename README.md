@@ -1,3 +1,1 @@
-# cc
-Insight Data Engineering - Coding Challenge
-README
+# Insight Data Engineering - Coding Challenge
