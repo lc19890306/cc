@@ -1,1 +1,0 @@
-# example of program that calculates the total number of times each word has been tweeted.
