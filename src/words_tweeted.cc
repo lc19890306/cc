@@ -30,6 +30,8 @@ twitter_analyzer::words_tweeted(const std::string &outfile_names) {
 	    << pair.second
 	    << std::endl;
   outfile.close();
+
+  // Reset input stream
   infile.clear();
   infile.seekg(0, std::ios_base::beg);
 }
