@@ -5,8 +5,9 @@
 #include <fstream>
 #include <iomanip>
 #include <sstream>
-#include <set>
+#include <vector>
 #include <map>
+#include <unordered_set>
 
 class twitter_analyzer {
 public:
