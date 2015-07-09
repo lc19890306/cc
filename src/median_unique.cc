@@ -1,13 +1,8 @@
-#ifndef MEDIAN_UNIQUE_HH
-#define MEDIAN_UNIQUE_HH
+#include "twitter_analyzer.hh"
 
-#include <fstream>
-#include <iomanip>
-#include <sstream>
-#include <set>
-
-void median_unique(std::ifstream &infile) {
-  std::ofstream outfile("../tweet_output/ft2.txt");
+void
+twitter_analyzer::median_unique(const std::string &outfile_names) {
+  std::ofstream outfile(outfile_names);
   std::string line;
   std::size_t total(0), counter(0);
 
@@ -31,6 +26,6 @@ void median_unique(std::ifstream &infile) {
 	    << std::endl;
   }
   outfile.close();
+  infile.clear();
+  infile.seekg(0, std::ios_base::beg);
 }
-
-#endif	// MEDIAN_UNIQUE_HH
