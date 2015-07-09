@@ -1,13 +1,8 @@
-#ifndef WORDS_TWEETED_HH
-#define WORDS_TWEETED_HH
+#include "twitter_analyzer.hh"
 
-#include <fstream>
-#include <iomanip>
-#include <sstream>
-#include <map>
-
-void words_tweeted(std::ifstream &infile) {
-  std::ofstream outfile("../tweet_output/ft1.txt");
+void
+twitter_analyzer::words_tweeted(const std::string &outfile_names) {
+  std::ofstream outfile(outfile_names);
   std::string line;
   std::map<std::string, std::size_t> word_tweeted;
 
@@ -35,6 +30,6 @@ void words_tweeted(std::ifstream &infile) {
 	    << pair.second
 	    << std::endl;
   outfile.close();
+  infile.clear();
+  infile.seekg(0, std::ios_base::beg);
 }
-
-#endif	// WORDS_TWEETED_HH
