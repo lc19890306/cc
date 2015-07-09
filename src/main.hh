@@ -4,7 +4,7 @@
 #include "display_version.hh"
 #include "twitter_analyzer.hh"
 
+#include <exception>
 #include <boost/program_options.hpp>
-#include <vector>
 
 #endif	// MAIN_HH
