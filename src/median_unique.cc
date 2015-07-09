@@ -26,6 +26,8 @@ twitter_analyzer::median_unique(const std::string &outfile_names) {
 	    << std::endl;
   }
   outfile.close();
+
+  // Reset input stream
   infile.clear();
   infile.seekg(0, std::ios_base::beg);
 }
