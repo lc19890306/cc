@@ -2,7 +2,7 @@
 
 This project is written in C++11, with the help of Boost library (1.58.0).
 
-Platform: Mac OS X, Intel i5 processor, 4 Gb memory, clang++-3.5 compiler
+Platform: Mac OS X, Intel i5 processor, 4 GB memory, clang++-3.5 compiler
 Compatible platforms: all Linux variants with g++-4.3 or later (clang++-3.3 or later)
 
 All source code files are put in src folder. Just "make" it to obtain the final executive which will be put in build folder (Install Boost 1.58.0 before that).
