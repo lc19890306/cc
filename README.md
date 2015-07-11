@@ -15,4 +15,4 @@ Possible scalability issues regarding these two problems:
 
 2.  To calculate the median number of unique words per tweet and update this median as tweets come in, I need to deal with possible big number in the calculation. In order to avoid summation and multiplication, which may yield big number, I used the mathematical calculation shown as follows:
 
-	new_median = old_median - (old_median - current_number) / total_number.
+	<font size = "6px">new_median = old_median - (old_median - current_number) / total_number.</font>
