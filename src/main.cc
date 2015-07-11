@@ -2,7 +2,8 @@
 
 namespace po = boost::program_options;
 
-int main(int argc, char **argv) {
+int
+main(int argc, char **argv) {
   try {
     std::string infile_name;
     std::vector<std::string> outfile_names({"ft1.txt", "ft2.txt"});
